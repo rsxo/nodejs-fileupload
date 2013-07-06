@@ -2,7 +2,8 @@
   "name": "node-fileupload",
   "version": "1.0.0",
   "dependencies": {
-    "formidable": "1.0.14"
+    "formidable": "1.0.14",
+    "express": "3.3.3"
   },
   "engines": {
     "node": "0.10.x",

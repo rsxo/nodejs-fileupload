@@ -1,4 +1,4 @@
-var app = require("./server");
+var server = require("./server");
 var router = require("./router");
 var requestHandlers = require("./requestHandlers");
 
@@ -8,4 +8,4 @@ handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 handle["/show"] = requestHandlers.show;
 
-app.start(router.route, handle);
+server.start(router.route, handle);
