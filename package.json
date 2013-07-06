@@ -1,0 +1,11 @@
+{
+  "name": "node-fileupload",
+  "version": "1.0.0",
+  "dependencies": {
+    "formidable": "1.0.14"
+  },
+  "engines": {
+    "node": "0.10.12",
+    "npm": "1.2.32"
+  }
+}
